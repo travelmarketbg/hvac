@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast HVAC Services Clermont | Heating & AC | 4.8 ⭐ | (352) 717-7433</title>
+    <meta name="description" content="Fast HVAC Services Clermont - Heating & AC. 4.8 stars from 91 reviews. Air conditioning contractor in Clermont, FL. Call (352) 717-7433 for fast, professional HVAC service." />
+    <link rel="canonical" href="https://fasthvacservicesclermont.com/" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+        /* ===== RESET & BASE ===== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: #1a1a2e;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+        img { max-width: 100%; height: auto; display: block; }
+        a { text-decoration: none; color: inherit; }
+        .container {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ===== NAVBAR ===== */
+        .navbar {
+            position: sticky; top: 0; z-index: 100;
+            background: #0b2b40;
+            color: #fff;
+            padding: 12px 20px;
+            display: flex; align-items: center; justify-content: space-between;
+            flex-wrap: wrap; gap: 10px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+        }
+        .navbar .brand {
+            display: flex; align-items: center; gap: 10px;
+        }
+        .navbar .brand .logo-icon {
+            font-size: 1.6rem;
+        }
+        .navbar .brand .logo-icon i {
+            font-size: 1.6rem;
+            color: #4fc3f7;
+        }
+        .navbar .brand .business-name {
+            font-weight: 700;
+            font-size: 1.05rem;
+            line-height: 1.2;
+        }
+        .navbar .brand .business-name .location {
+            font-weight: 400;
+            font-size: 0.8rem;
+            opacity: 0.8;
+            display: block;
+        }
+        .navbar .nav-links {
+            display: flex; align-items: center; gap: 18px;
+            list-style: none;
+        }
+        .navbar .nav-links a {
+            color: rgba(255,255,255,0.85);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+            white-space: nowrap;
+        }
+        .navbar .nav-links a:hover { color: #ffb347; }
+        .navbar .nav-links .location-badge {
+            display: inline-flex; align-items: center; gap: 5px;
+            background: rgba(255,255,255,0.12);
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            color: #fff;
+            white-space: nowrap;
+        }
+        .navbar .nav-links .location-badge i {
+            color: #4fc3f7;
+        }
+        .navbar .phone-cta a {
+            background: #e63946;
+            color: #fff;
+            padding: 10px 22px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            display: inline-flex; align-items: center; gap: 8px;
+            transition: background 0.2s;
+        }
+        .navbar .phone-cta a:hover { background: #c1121f; }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: linear-gradient(135deg, #0b2b40 0%, #1a5276 50%, #0b2b40 100%);
+            color: #fff;
+            padding: 60px 20px 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            pointer-events: none;
+        }
+        .hero .container { position: relative; z-index: 1; }
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+        .hero .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 12px;
+        }
+        .hero .rating-large {
+            display: inline-flex; align-items: center; gap: 10px;
+            background: rgba(255,255,255,0.12);
+            padding: 8px 22px;
+            border-radius: 40px;
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+        }
+        .hero .rating-large .stars { color: #ffb347; font-size: 1.3rem; }
+
+        .hero-btns {
+            display: flex; flex-wrap: wrap; gap: 14px;
+            justify-content: center; margin-top: 22px;
+        }
+        .hero-btns .btn-primary {
+            background: #e63946;
+            color: #fff;
+            padding: 16px 36px;
+            border-radius: 40px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            display: inline-flex; align-items: center; gap: 10px;
+            transition: transform 0.2s, background 0.2s;
+        }
+        .hero-btns .btn-primary:hover {
+            background: #c1121f;
+            transform: scale(1.03);
+        }
+        .hero-btns .btn-secondary {
+            background: transparent;
+            color: #fff;
+            border: 2px solid rgba(255,255,255,0.5);
+            padding: 14px 30px;
+            border-radius: 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            display: inline-flex; align-items: center; gap: 8px;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        .hero-btns .btn-secondary:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: #fff;
+        }
+
+        /* ===== TRUST STRIP ===== */
+        .trust-strip {
+            background: #fff;
+            padding: 18px 20px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .trust-strip .container {
+            display: flex; flex-wrap: wrap; justify-content: center; gap: 24px 36px;
+        }
+        .trust-strip span {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: 0.95rem; color: #495057;
+        }
+        .trust-strip .icon { font-size: 1.2rem; }
+        .trust-strip .icon i { font-size: 1.1rem; color: #e63946; }
+
+        /* ===== SECTIONS COMMON ===== */
+        section { padding: 60px 0; }
+        section:not(.hero):not(.cta-banner):nth-child(even) { background: #fff; }
+        .section-title {
+            font-size: 1.9rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #0b2b40;
+        }
+        .section-desc {
+            text-align: center;
+            color: #6c757d;
+            max-width: 650px;
+            margin: 0 auto 36px;
+            font-size: 1.05rem;
+        }
+
+        /* ===== SERVICES ===== */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+        }
+        .service-card {
+            background: #f8f9fa;
+            border-radius: 14px;
+            padding: 24px 16px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        }
+        .service-card .icon { font-size: 2rem; margin-bottom: 8px; }
+        .service-card .icon i { font-size: 2rem; }
+        .service-card h3 { font-size: 0.95rem; font-weight: 700; color: #0b2b40; }
+
+        /* ===== ABOUT / HIGHLIGHTS ===== */
+        .highlights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .highlight-card {
+            background: #f8f9fa;
+            border-radius: 14px;
+            padding: 28px 20px;
+            text-align: center;
+            border-left: 4px solid #e63946;
+        }
+        .highlight-card .icon { font-size: 2rem; margin-bottom: 8px; }
+        .highlight-card .icon i { font-size: 2rem; }
+        .highlight-card h3 { font-size: 1rem; font-weight: 700; color: #0b2b40; margin-bottom: 6px; }
+        .highlight-card p { font-size: 0.9rem; color: #6c757d; }
+
+        /* ===== REVIEWS ===== */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .review-card {
+            background: #fff;
+            border-radius: 14px;
+            padding: 24px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            border: 1px solid #e9ecef;
+        }
+        .review-card .stars { color: #ffb347; font-size: 1.1rem; letter-spacing: 1px; }
+        .review-card .name { font-weight: 700; margin: 6px 0 2px; color: #0b2b40; }
+        .review-card .text { font-size: 0.92rem; color: #495057; line-height: 1.5; }
+        .review-card .date { font-size: 0.8rem; color: #adb5bd; margin-bottom: 6px; }
+
+        /* ===== MAP ===== */
+        .map-container {
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            display: block;
+        }
+
+        /* ===== CTA BANNER ===== */
+        .cta-banner {
+            background: linear-gradient(135deg, #0b2b40, #1a5276);
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .cta-banner h2 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; }
+        .cta-banner p { font-size: 1.1rem; opacity: 0.9; margin-bottom: 20px; }
+        .cta-banner .btn-cta {
+            background: #e63946;
+            color: #fff;
+            padding: 18px 44px;
+            border-radius: 40px;
+            font-size: 1.4rem;
+            font-weight: 700;
+            display: inline-flex; align-items: center; gap: 10px;
+            transition: transform 0.2s, background 0.2s;
+        }
+        .cta-banner .btn-cta:hover { background: #c1121f; transform: scale(1.04); }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: #0b2b40;
+            color: rgba(255,255,255,0.7);
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        footer a { color: #ffb347; }
+        footer a:hover { text-decoration: underline; }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.7rem; }
+            .hero .subtitle { font-size: 1rem; }
+            .hero .rating-large { font-size: 0.9rem; padding: 6px 16px; }
+            .hero-btns .btn-primary { font-size: 1rem; padding: 14px 28px; }
+            .hero-btns .btn-secondary { font-size: 0.95rem; padding: 12px 22px; }
+            .navbar .phone-cta a { font-size: 0.9rem; padding: 8px 16px; }
+            .navbar { padding: 10px 14px; }
+            .navbar .nav-links .location-badge { display: none; }
+            .navbar .brand .business-name { font-size: 0.9rem; }
+            .section-title { font-size: 1.5rem; }
+            .services-grid { grid-template-columns: repeat(2, 1fr); }
+            .cta-banner h2 { font-size: 1.5rem; }
+            .cta-banner .btn-cta { font-size: 1.1rem; padding: 14px 30px; }
+        }
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 1.4rem; }
+            .services-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .service-card { padding: 16px 10px; }
+            .service-card .icon { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <div class="brand">
+            <span class="logo-icon"><i class="fa-solid fa-snowflake"></i></span>
+            <div class="business-name">
+                Fast HVAC Services
+                <span class="location"><i class="fa-solid fa-location-dot"></i> Clermont, FL</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><span class="location-badge"><i class="fa-solid fa-location-dot"></i> 16 Sunrise Plaza Dr</span></li>
+        </ul>
+        <div class="phone-cta">
+            <a href="tel:+13527177433"><i class="fa-solid fa-phone"></i> (352) 717-7433</a>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="container">
+            <h1>Fast HVAC Services Clermont</h1>
+            <p class="subtitle">Heating &amp; Air Conditioning — Trusted Local Expert</p>
+            <div class="hero-btns">
+                <a href="tel:+13527177433" class="btn-primary"><i class="fa-solid fa-phone"></i> Call (352) 717-7433</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TRUST STRIP ===== -->
+    <div class="trust-strip">
+        <div class="container">
+            <span><span class="icon"><i class="fa-solid fa-shield-halved"></i></span> Licensed &amp; Insured</span>
+            <span><span class="icon"><i class="fa-solid fa-star"></i></span> 4.8 Star Rated</span>
+            <span><span class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></span> 10+ Years Experience</span>
+            <span><span class="icon"><i class="fa-solid fa-tag"></i></span> Fair &amp; Upfront Pricing</span>
+            <span><span class="icon"><i class="fa-solid fa-truck"></i></span> Same-Day Service Available</span>
+        </div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Our HVAC Services</h2>
+            <p class="section-desc">Complete heating, cooling, and air quality solutions for Clermont and surrounding areas.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon"><i class="fa-solid fa-snowflake"></i></div>
+                    <h3>AC Repair</h3>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fa-solid fa-cubes"></i></div>
+                    <h3>AC Installation</h3>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fa-solid fa-wrench"></i></div>
+                    <h3>AC Maintenance</h3>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fa-solid fa-fire"></i></div>
+                    <h3>Heating Repair</h3>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fa-solid fa-temperature-half"></i></div>
+                    <h3>Thermostat Services</h3>
+                </div>
+                <div class="service-card">
+                    <div class="icon"><i class="fa-solid fa-fan"></i></div>
+                    <h3>Ductwork &amp; Ventilation</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Why Clermont Chooses Fast HVAC</h2>
+            <p class="section-desc">We treat every home like our own — with honesty, skill, and respect.</p>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="icon"><i class="fa-solid fa-user-gear"></i></div>
+                    <h3>Skilled Technicians</h3>
+                    <p>Experienced, certified pros who explain every step.</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="icon"><i class="fa-solid fa-stopwatch"></i></div>
+                    <h3>Fast Response</h3>
+                    <p>Same-day service when you need it most.</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="icon"><i class="fa-solid fa-gem"></i></div>
+                    <h3>Upfront Pricing</h3>
+                    <p>Clear quotes — no hidden fees or surprises.</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="icon"><i class="fa-solid fa-star"></i></div>
+                    <h3>5-Star Service</h3>
+                    <p>91 reviews with a 4.8-star average rating.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RATING BANNER ===== -->
+    <div class="rating-banner">
+        <div class="container">
+            <div class="rating-display">
+                <span class="stars">★★★★★</span>
+                <span><strong>4.8</strong> — 91 Google reviews</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== REVIEWS ===== -->
+    <section style="background:#fff;">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-desc">Real reviews from real people in Clermont, Florida.</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <div class="name">Deanna Ramirez</div>
+                    <div class="date">1 month ago</div>
+                    <div class="text">From the moment they arrived, I felt confident in their expertise. The technicians took the time to explain each step of the heating system installation, addressing all my questions patiently. Their attention to detail was evident throughout.</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <div class="name">Kathryn Sparks</div>
+                    <div class="date">2 weeks ago</div>
+                    <div class="text">After comparing quotes, their explanation of the dismantlement process was more thorough and upfront. The technician took almost three hours to carefully dismantle the A/C system, ensuring no further damage. Everything is running smoothly.</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <div class="name">Google Reviewer</div>
+                    <div class="date">Recent</div>
+                    <div class="text">The owner and all his employees are ultimate professionals and very courteous. Class A help from choosing equipment, pricing, comfort and installation. Highly recommend!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MAP + CONTACT ===== -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Our Location</h2>
+            <p class="section-desc">Serving Clermont and the surrounding Central Florida area.</p>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3512.8!2d-81.6815672!3d28.3718024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9a7fbb7515bc9%3A0x3466d58890f5263f!2sFast%20HVAC%20Services%20Clermont%20-%20Heating%20%26%20AC!5e0!3m2!1sen!2sus!4v1"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Fast HVAC Services Clermont - Google Maps"
+                ></iframe>
+            </div>
+            <div style="text-align:center;margin-top:28px;">
+                <p style="font-size:1.1rem;color:#495057;">
+                    <i class="fa-solid fa-location-dot"></i> <strong>16 Sunrise Plaza Dr, Clermont, FL 34714</strong>
+                </p>
+                <p style="font-size:1.05rem;color:#495057;margin-top:6px;">
+                    <i class="fa-regular fa-clock"></i> <strong>Hours:</strong> Mon–Sun · 7 AM – 8 PM
+                </p>
+                <a href="tel:+13527177433" class="btn-primary" style="display:inline-flex;margin-top:18px;background:#e63946;color:#fff;padding:16px 36px;border-radius:40px;font-size:1.2rem;font-weight:700;gap:10px;">
+                    <i class="fa-solid fa-phone"></i> Call (352) 717-7433
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Need HVAC Help Right Now?</h2>
+            <p>Fast, professional service — call us today and we'll take care of the rest.</p>
+            <a href="tel:+13527177433" class="btn-cta"><i class="fa-solid fa-phone"></i> (352) 717-7433</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p><strong>Fast HVAC Services Clermont - Heating &amp; AC</strong></p>
+            <p>16 Sunrise Plaza Dr, Clermont, FL 34714</p>
+            <p>Phone: <a href="tel:+13527177433">(352) 717-7433</a></p>
+            <p style="margin-top:10px;font-size:0.8rem;">&copy; 2026 Fast HVAC Services Clermont. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
